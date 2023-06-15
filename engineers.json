@@ -1,0 +1,132 @@
+[
+  {
+    "id": "1",
+    "name": "Chetan Wadhwani",
+    "skills": ["a"],
+    "availability": {
+      "14:00-15:00": true,
+      "15:00-16:00": false
+    },
+    "location": {
+      "lat": 40.712776,
+      "long": -74.005974
+    }
+  },
+  {
+    "id": "2",
+    "name": "Arjuna Bhattacharya",
+    "skills": ["b"],
+    "availability": {
+      "14:00-15:00": true,
+      "15:00-16:00": false
+    },
+    "location": {
+      "lat": 40.712776,
+      "long": -74.005974
+    }
+  },
+  {
+    "id": "3",
+    "name": "Pranav Parashar",
+    "skills": ["c"],
+    "availability": {
+      "14:00-15:00": true,
+      "15:00-16:00": false
+    },
+    "location": {
+      "lat": 40.712776,
+      "long": -74.005974
+    }
+  },
+  {
+    "id": "4",
+    "name": "Rohan Chandra",
+    "skills": ["d"],
+    "availability": {
+      "14:00-15:00": true,
+      "15:00-16:00": false
+    },
+    "location": {
+      "lat": 40.712776,
+      "long": -74.005974
+    }
+  },
+  {
+    "id": "5",
+    "name": "Parth Batra",
+    "skills": ["e"],
+    "availability": {
+      "14:00-15:00": true,
+      "15:00-16:00": false
+    },
+    "location": {
+      "lat": 40.712776,
+      "long": -74.005974
+    }
+  },
+  {
+    "id": "6",
+    "name": "Tanish Gupta",
+    "skills": ["f"],
+    "availability": {
+      "14:00-15:00": true,
+      "15:00-16:00": false
+    },
+    "location": {
+      "lat": 40.712776,
+      "long": -74.005974
+    }
+  },
+  {
+    "id": "7",
+    "name": "Sachit Sharma",
+    "skills": ["g"],
+    "availability": {
+      "14:00-15:00": true,
+      "15:00-16:00": false
+    },
+    "location": {
+      "lat": 40.712776,
+      "long": -74.005974
+    }
+  },
+  {
+    "id": "8",
+    "name": "Arav Behl",
+    "skills": ["h"],
+    "availability": {
+      "14:00-15:00": true,
+      "15:00-16:00": false
+    },
+    "location": {
+      "lat": 40.712776,
+      "long": -74.005974
+    }
+  },
+  {
+    "id": "9",
+    "name": "Shirsho Sinha",
+    "skills": ["i"],
+    "availability": {
+      "14:00-15:00": true,
+      "15:00-16:00": false
+    },
+    "location": {
+      "lat": 40.712776,
+      "long": -74.005974
+    }
+  },
+  {
+    "id": "10",
+    "name": "Archit Gupta",
+    "skills": ["j"],
+    "availability": {
+      "14:00-15:00": true,
+      "15:00-16:00": false
+    },
+    "location": {
+      "lat": 40.712776,
+      "long": -74.005974
+    }
+  }
+]
