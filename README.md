@@ -213,10 +213,6 @@ node index.js
 
 You might encounter a message saying "Job ${job.id} could not be assigned to any engineer." This message means that there was no engineer available with the required skills, at the needed time, who is close enough to the job site. 
 
-## Extending the Project
-
-If you wish to add more rules or modify the existing rules for job assignment, you can do so in the `scheduleJob` function. This is where the logic for determining the eligibility of an engineer for a job is defined.
-
 ## Output
 
 The program logs messages to the console for each job, indicating which engineer (if any) the job was assigned to, and when. If a job could not be assigned to any engineer, it logs a message indicating this.
