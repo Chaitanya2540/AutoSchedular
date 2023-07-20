@@ -154,6 +154,61 @@ The project uses the following dependencies:
 1. `json-rules-engine`: A JSON-based rules engine that executes when certain criteria are met.
 2. `fs`: A built-in Node.js file system module for handling file I/O operations.
 
+## How to Run the Project
+
+Before running the project, make sure you have Node.js and NPM (Node Package Manager) installed on your machine. If not, you can download it from [here](https://nodejs.org/en/download/).
+
+Follow the steps below to run this project:
+
+1. **Clone the Repository**
+
+   You can clone the repository by running the following command in your terminal:
+
+   ```bash
+   git clone <repository-url>
+   ```
+
+   Replace `<repository-url>` with the URL of this repository.
+
+2. **Navigate to the Project Directory**
+
+   Change your current directory to the project directory by running:
+
+   ```bash
+   cd <project-directory>
+   ```
+
+   Replace `<project-directory>` with the name of the directory where the project is located.
+
+3. **Install Dependencies**
+
+   This project requires the `json-rules-engine` package. You can install it by running the following command in your terminal:
+
+   ```bash
+   npm install json-rules-engine
+   ```
+
+4. **Run the Project**
+
+   You can run the project by running the following command in your terminal:
+
+   ```bash
+   node index.js
+   ```
+
+Please note that `index.js` is the main entry point of your application. If your entry point is different, replace `index.js` with your actual entry point file.
+
+## Example 
+
+For instance, if your repository URL is `https://github.com/username/repo.git` and your project directory is `job-scheduler`, the commands will look like this:
+
+```bash
+git clone https://github.com/username/repo.git
+cd job-scheduler
+npm install json-rules-engine
+node index.js
+```
+
 ## Error Handling
 
 You might encounter a message saying "Job ${job.id} could not be assigned to any engineer." This message means that there was no engineer available with the required skills, at the needed time, who is close enough to the job site. 
