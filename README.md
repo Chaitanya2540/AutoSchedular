@@ -44,11 +44,22 @@ The application reads jobs and engineers data from 'jobs.json' and 'engineers.js
 [
   {
     "id": "1",
-    "skillsetRequired": ["Skill1", "Skill2"],
-    "location": { "lat": 34.0522, "long": -118.2437 },
-    "priority": 1
+    "skillsetRequired": ["a","k"],
+    "location": {
+      "lat": 40.712776,
+      "long": -74.005974
+    },
+    "priority": 3
   },
-  ...
+  {
+    "id": "2",
+    "skillsetRequired": ["b","l"],
+    "location": {
+      "lat": 40.712776,
+      "long": -74.005974
+    },
+    "priority": 1
+  }
 ]
 ```
 
@@ -57,19 +68,84 @@ The application reads jobs and engineers data from 'jobs.json' and 'engineers.js
 ```json
 [
   {
-    "name": "Engineer1",
-    "skills": ["Skill1", "Skill2", "Skill3"],
-    "rating": 4.8,
-    "location": { "lat": 37.7749, "long": -122.4194 },
-    "availability": { "Monday": { "09:00-10:00": true, ... }, ... }
-  },
-  ...
+    "id": "1",
+    "name": "Chetan Wadhwani",
+    "skills": [
+      "a","k"
+    ],
+    "availability": {
+      "Monday": {
+        "09:00-10:00": true,
+        "10:00-11:00": true,
+        "11:00-12:00": true,
+        "12:00-13:00": true,
+        "13:00-14:00": true,
+        "14:00-15:00": true,
+        "15:00-16:00": true,
+        "16:00-17:00": true,
+        "17:00-18:00": true,
+        "18:00-19:00": true
+      },
+      "Tuesday": {
+        "09:00-10:00": true,
+        "10:00-11:00": true,
+        "11:00-12:00": true,
+        "12:00-13:00": true,
+        "13:00-14:00": true,
+        "14:00-15:00": true,
+        "15:00-16:00": true,
+        "16:00-17:00": true,
+        "17:00-18:00": true,
+        "18:00-19:00": true
+      },
+      "Wednesday": {
+        "09:00-10:00": true,
+        "10:00-11:00": true,
+        "11:00-12:00": true,
+        "12:00-13:00": true,
+        "13:00-14:00": true,
+        "14:00-15:00": true,
+        "15:00-16:00": true,
+        "16:00-17:00": true,
+        "17:00-18:00": true,
+        "18:00-19:00": true
+      },
+      "Thursday": {
+        "09:00-10:00": true,
+        "10:00-11:00": true,
+        "11:00-12:00": true,
+        "12:00-13:00": true,
+        "13:00-14:00": true,
+        "14:00-15:00": true,
+        "15:00-16:00": true,
+        "16:00-17:00": true,
+        "17:00-18:00": true,
+        "18:00-19:00": true
+      },
+      "Friday": {
+        "09:00-10:00": true,
+        "10:00-11:00": true,
+        "11:00-12:00": true,
+        "12:00-13:00": true,
+        "13:00-14:00": true,
+        "14:00-15:00": true,
+        "15:00-16:00": true,
+        "16:00-17:00": true,
+        "17:00-18:00": true,
+        "18:00-19:00": true
+      }
+    },
+    "location": {
+      "lat": 40.712,
+      "long": -74.005974
+    },
+    "rating": 3
+  }
 ]
 ```
 
 The `availability` field represents the availability of the engineer for each timeslot on each day of the week. If the value is `true`, the engineer is available during that timeslot; if it's `false`, they are not available.
 
-Sure, here's the updated README:
 
 ## Dependencies
 
